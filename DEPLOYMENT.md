@@ -19,7 +19,7 @@ I have initialized a local Git repository for you. To deploy with the recommende
     *   Import your new repository.
     *   **Environment Variables**:
         *   `VITE_SUPABASE_URL`: (Copy from your `.env` file)
-        *   `VITE_SUPABASE_ANON_KEY`: (Copy from your `.env` file)
+        *   `VITE_SUPABASE_PUBLISHABLE_KEY`: (Copy from your `.env` file)
     *   Click **Deploy**.
 
 ## Option 2: Netlify (Drag & Drop - Easiest / No Git required)
@@ -31,7 +31,7 @@ If you don't want to set up GitHub right now, use this method:
 3.  **Upload**: Drag and drop the `dist` folder from your file explorer into the Netlify browser window.
 4.  **Configure Env Vars (Important)**:
     *   Once deployed, go to **Site settings** -> **Environment variables**.
-    *   Add `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`.
+    *   Add `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY`.
     *   **Re-deploy**: You may need to trigger a re-deploy for these to take effect.
 
 ## Summary
